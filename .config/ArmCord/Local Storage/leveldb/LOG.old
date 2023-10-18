@@ -1,0 +1,11 @@
+2023/10/16-15:12:21.116 6d5b Reusing MANIFEST /home/hikari/.config/ArmCord/Local Storage/leveldb/MANIFEST-000001
+2023/10/16-15:12:21.116 6d5b Recovering log #3
+2023/10/16-15:12:21.162 6d5b Level-0 table #3: started
+2023/10/16-15:12:21.391 6d5b Level-0 table #3: 4011551 bytes OK
+2023/10/16-15:12:21.392 6d5b Recovering log #4
+2023/10/16-15:12:21.392 6d5b Reusing old log /home/hikari/.config/ArmCord/Local Storage/leveldb/000004.log 
+2023/10/16-15:12:21.580 6d5b Delete type=0 #3
+2023/10/16-15:12:21.580 6d5b Delete type=2 #5
+2023/10/16-15:17:40.024 6d5c Level-0 table #6: started
+2023/10/16-15:17:40.508 6d5c Level-0 table #6: 2044741 bytes OK
+2023/10/16-15:17:40.598 6d5c Delete type=0 #4
