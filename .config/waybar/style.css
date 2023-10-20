@@ -9,6 +9,28 @@ window#waybar {
  background: transparent;
 }
 
+#tray {
+ border-radius: 12;
+ padding-left: 7;
+ padding-right: 7;
+ background: #fbf1c7;
+}
+
+#custom-power {
+ border-radius: 12;
+ padding-left: 7;
+ padding-right: 4;
+ color: #cc241d;
+ background: #ebdbb2;
+}
+
+#custom-media {
+ border-radius: 12;
+ padding-left: 7;
+ padding-right: 4;
+ background: #cc241d;
+
+}
 #memory {
  border-radius: 12;
  background: #458588;
@@ -62,8 +84,8 @@ window#waybar {
 .modules-right {
 /* background-color: #282828; */
  margin: 2px 10px 0 0;
- padding-top: 7;
- padding-bottom: 7;
+ /* padding-top: 7; */
+ /* padding-bottom: 7; */
  padding-right: 7;
  border-radius: 12;
  padding-left: 7;

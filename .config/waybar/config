@@ -1,8 +1,31 @@
 {
   "spacing": 4,
-  "modules-left": [ "hyprland/workspaces" ],
-  "modules-right": [ "cpu", "memory", "network", "battery", "wireplumber", "temperature", "clock" ],
+  "modules-left": [ "hyprland/workspaces", "custom/media" ],
+  "modules-right": [ "cpu", "memory", "network", "battery", "wireplumber", "temperature", "clock", "tray",  "custom/power" ],
+
+  "custom/power": {
+   "on-click": "~/.config/rofi/powermenu/type-5/powermenu.sh",
+   "format": " "
+  },
   
+  "tray": {
+    "icon-size": 21,
+    "spacing": 10
+  },
+ 
+  "custom/media": {
+    "format": "{icon}{}",
+    "return-type": "json",
+    "format-icons": {
+        "Playing": " ",
+        "Paused": " ",
+    },
+    "max-length":70,
+    "exec": "playerctl -a metadata --format '{\"text\": \"{{playerName}}: {{artist}} - {{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+    "on-click": "playerctl play-pause",
+  },
+
+ 
   "hyprland/workspaces": {
     "format": "{icon}",
     "format-icons": {
