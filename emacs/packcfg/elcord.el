@@ -1,0 +1,2 @@
+(require 'elcord)
+(elcord-mode)
